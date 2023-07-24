@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: large !important;
+}
+.head-section{
+    display: block;
+    overflow: hidden;
+    color: white;
+    height: 100vh;
+}
+
+.head-section img{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.logo{
+    margin-top: 0% !important;
+}
+.round-nav, .logo{
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.716);
+}
+
+.profile, .about-me{
+    
+    box-shadow: 3px 3px 6px 6px rgba(131, 131, 131, 0.461);
+}
