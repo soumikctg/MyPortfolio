@@ -2,6 +2,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: large !important;
 }
+/* Header */
+
 .head-section{
     display: block;
     overflow: hidden;
@@ -9,7 +11,9 @@ body{
     height: 100vh;
 }
 
+
 .head-section img{
+    opacity: 0.9;
     position: absolute;
     z-index: -1;
     object-fit: cover;
@@ -19,13 +23,60 @@ body{
 
 .logo{
     margin-top: 0% !important;
+    transition-duration: 0.9s;
+}
+.logo:hover{
+    background-color: rgb(138, 138, 138);
 }
 .round-nav, .logo{
+    
     border: 1px solid white;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.716);
 }
+.nav-link{
+    color: white !important;
+    transition: 0.9s;
+}
+.nav-link:hover{
+    color: rgb(138, 138, 138) !important;
+    
+}
 
+.head-text{
+    letter-spacing: 0.3rem;
+}
+
+.welcome, .fName, .lName, .soft, .dev{
+    transition: 0.9s;
+}
+.welcome:hover{
+    color: rgb(68, 191, 218);
+}
+
+.fName:hover{
+    
+    color: rgb(224, 140, 255);
+}
+
+.lName:hover{
+    
+    color: rgb(253, 141, 223);
+}
+
+.soft:hover{
+    
+    color: rgb(249, 192, 123);
+}
+
+.dev:hover{
+    
+    color: rgb(193, 253, 141);
+}
+
+
+
+/* About */
 .profile, .about-me{
     
     box-shadow: 3px 3px 6px 6px rgba(131, 131, 131, 0.461);
