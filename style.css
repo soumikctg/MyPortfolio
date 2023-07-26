@@ -105,9 +105,19 @@ body{
 
 /* Skill section */
 
-.skill-section{
-    
-}
+
 .skill-div{
     box-shadow: 2px 2px 5px 3px rgb(153, 147, 147);
+}
+
+/* Project Section */
+
+.project-div{
+
+    box-shadow: 2px 2px 5px 3px rgb(153, 147, 147);
+}
+
+.project-div img{
+    
+    width: 100%;
 }
